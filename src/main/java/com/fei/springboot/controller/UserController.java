@@ -1,14 +1,14 @@
 package com.fei.springboot.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.github.pagehelper.PageInfo;
+
 import com.fei.springboot.domain.User;
 import com.fei.springboot.service.UserService;
-import com.github.pagehelper.PageInfo;
 
 @Controller
 @RequestMapping("/user")

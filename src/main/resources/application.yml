@@ -2,23 +2,23 @@ logging:
   config: classpath:logback.xml
   path: d:/logs
 server:
-  port: 80
+  port: 8074
   session-timeout: 60
 
 
 mybatis:
-     mapperLocations: classpath:/com/fei/springboot/dao/*.xml
-     typeAliasesPackage: com.fei.springboot.dao    
-     mapperScanPackage: com.fei.springboot.dao
-     configLocation: classpath:/mybatis-config.xml
+  typeAliasesPackage: com.fei.springboot.dao    
+  mapperScanPackage: com.fei.springboot.dao
+  configLocation: classpath:mybatis-config.xml
+  mapperLocations: classpath:mapper/*.xml
 
 spring:
     datasource:
         name: db
         type: com.alibaba.druid.pool.DruidDataSource
-        url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&amp;characterEncoding=utf-8
+        url: jdbc:mysql://127.0.0.1:3306/im_log_service_2?useUnicode=true&amp;characterEncoding=utf-8
         username: root
-        password: root
+        password: 123456
         driver-class-name: com.mysql.jdbc.Driver
         minIdle: 5
         maxActive: 100
