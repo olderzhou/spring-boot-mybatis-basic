@@ -21,7 +21,7 @@
 		<!-- 这是默认的执行类型  （SIMPLE: 简单； REUSE: 执行器可能重复使用prepared statements语句；BATCH: 执行器可以重复执行语句和批量更新）  -->
 		<setting name="defaultExecutorType" value="SIMPLE" />
 		
-		<setting name="defaultStatementTimeout" value="25" />
+		<setting name="defaultStatementTimeout" value="250" />
 		
 		<setting name="defaultFetchSize" value="100" />
 		

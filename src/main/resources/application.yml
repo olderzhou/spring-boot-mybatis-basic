@@ -3,6 +3,7 @@ logging:
   path: d:/logs
 server:
   port: 8074
+  context-path: /data-transfer
   session-timeout: 60
 
 
