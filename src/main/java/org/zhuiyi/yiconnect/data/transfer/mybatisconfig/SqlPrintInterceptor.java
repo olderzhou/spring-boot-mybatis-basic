@@ -1,4 +1,4 @@
-package com.fei.springboot.mybatisconfig;
+package org.zhuiyi.yiconnect.data.transfer.mybatisconfig;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.apache.ibatis.executor.Executor;

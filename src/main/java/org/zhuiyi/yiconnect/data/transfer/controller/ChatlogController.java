@@ -1,4 +1,4 @@
-package com.fei.springboot.controller;
+package org.zhuiyi.yiconnect.data.transfer.controller;
 
 import java.util.Map;
 
@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.fei.springboot.domain.ChatLog;
-import com.fei.springboot.dto.response.base.R;
-import com.fei.springboot.service.ChatLogService;
+import org.zhuiyi.yiconnect.data.transfer.domain.ChatLog;
+import org.zhuiyi.yiconnect.data.transfer.dto.response.base.R;
+import org.zhuiyi.yiconnect.data.transfer.service.ChatLogService;
 import com.github.pagehelper.PageInfo;
 
 @RestController

@@ -1,4 +1,4 @@
-package com.fei.springboot;
+package org.zhuiyi.yiconnect.data.transfer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -10,7 +10,7 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.ComponentScan;
 
 @EnableAutoConfiguration
-@ComponentScan(basePackages={"com.fei.springboot"})
+@ComponentScan(basePackages={"org.zhuiyi.yiconnect.data.transfer"})
 @SpringBootApplication
 public class Application extends SpringBootServletInitializer implements EmbeddedServletContainerCustomizer{
 

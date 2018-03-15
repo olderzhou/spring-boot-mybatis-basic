@@ -1,4 +1,4 @@
-package com.fei.springboot.domain;
+package org.zhuiyi.yiconnect.data.transfer.domain;
 
 public class User {
 

@@ -1,4 +1,4 @@
-package com.fei.springboot.dao;
+package org.zhuiyi.yiconnect.data.transfer.dao;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
-import com.fei.springboot.domain.User;
+import org.zhuiyi.yiconnect.data.transfer.domain.User;
 
 @Mapper
 public interface UserMapper {

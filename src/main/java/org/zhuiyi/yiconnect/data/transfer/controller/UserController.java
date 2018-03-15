@@ -1,4 +1,4 @@
-package com.fei.springboot.controller;
+package org.zhuiyi.yiconnect.data.transfer.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.github.pagehelper.PageInfo;
 
-import com.fei.springboot.domain.User;
-import com.fei.springboot.service.UserService;
+import org.zhuiyi.yiconnect.data.transfer.domain.User;
+import org.zhuiyi.yiconnect.data.transfer.service.UserService;
 
 @Controller
 @RequestMapping("/user")

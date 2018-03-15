@@ -1,11 +1,11 @@
-package com.fei.springboot.dao;
+package org.zhuiyi.yiconnect.data.transfer.dao;
 
 import java.util.List;
 import java.util.Map;
 
 import org.apache.ibatis.annotations.Mapper;
 
-import com.fei.springboot.domain.ChatLog;
+import org.zhuiyi.yiconnect.data.transfer.domain.ChatLog;
 
 @Mapper
 public interface ChatLogMapper {

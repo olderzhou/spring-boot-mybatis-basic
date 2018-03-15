@@ -8,8 +8,8 @@ server:
 
 
 mybatis:
-  typeAliasesPackage: com.fei.springboot.dao    
-  mapperScanPackage: com.fei.springboot.dao
+  typeAliasesPackage: org.zhuiyi.yiconnect.data.transfer.dao    
+  mapperScanPackage: org.zhuiyi.yiconnect.data.transfer.dao
   configLocation: classpath:mybatis-config.xml
   mapperLocations: classpath:mapper/*.xml
 

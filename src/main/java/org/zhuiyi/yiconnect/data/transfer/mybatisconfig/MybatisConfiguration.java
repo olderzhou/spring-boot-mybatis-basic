@@ -1,4 +1,4 @@
-package com.fei.springboot.mybatisconfig;
+package org.zhuiyi.yiconnect.data.transfer.mybatisconfig;
 
 import java.io.IOException;
 import java.util.Properties;
@@ -36,7 +36,7 @@ import com.github.pagehelper.PageHelper;
 @AutoConfigureAfter(DatasourceConfig.class)
 @ConfigurationProperties
 @EnableTransactionManagement
-//@MapperScan("com.fei.springboot.dao")
+//@MapperScan("org.zhuiyi.yiconnect.data.transfer.dao")
 public class MybatisConfiguration implements TransactionManagementConfigurer{
 
 	private static Log logger = LogFactory.getLog(MybatisConfiguration.class);

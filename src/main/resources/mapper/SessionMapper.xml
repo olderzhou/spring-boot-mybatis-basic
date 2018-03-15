@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.fei.springboot.dao.SessionMapper">
+<mapper namespace="org.zhuiyi.yiconnect.data.transfer.dao.SessionMapper">
 
-	<select id="queryAll" resultType="com.fei.springboot.domain.Session">
+	<select id="queryAll" resultType="org.zhuiyi.yiconnect.data.transfer.domain.Session">
 		select *
 		from session_info_01
 		order by timestamp asc

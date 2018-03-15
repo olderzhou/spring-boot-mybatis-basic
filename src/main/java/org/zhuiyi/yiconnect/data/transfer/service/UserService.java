@@ -1,11 +1,11 @@
-package com.fei.springboot.service;
+package org.zhuiyi.yiconnect.data.transfer.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.fei.springboot.dao.UserMapper;
-import com.fei.springboot.domain.User;
+import org.zhuiyi.yiconnect.data.transfer.dao.UserMapper;
+import org.zhuiyi.yiconnect.data.transfer.domain.User;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;

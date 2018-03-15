@@ -1,4 +1,4 @@
-package com.fei.springboot.mybatisconfig;
+package org.zhuiyi.yiconnect.data.transfer.mybatisconfig;
 
 import java.sql.SQLException;
 

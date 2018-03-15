@@ -1,4 +1,4 @@
-package com.fei.springboot.dto.response.base;
+package org.zhuiyi.yiconnect.data.transfer.dto.response.base;
 
 /**   
  * 文件名：R.java   
