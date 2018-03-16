@@ -10,21 +10,19 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.ComponentScan;
 
 @EnableAutoConfiguration
-@ComponentScan(basePackages={"org.zhuiyi.yiconnect.data.transfer"})
+@ComponentScan(basePackages = { "org.zhuiyi.yiconnect.data.transfer" })
 @SpringBootApplication
-public class Application extends SpringBootServletInitializer implements EmbeddedServletContainerCustomizer{
+public class Application extends SpringBootServletInitializer implements EmbeddedServletContainerCustomizer {
 
-	 @Override  
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {  
-        return application.sources(Application.class);  
-    }  
+	@Override
+	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+		return application.sources(Application.class);
+	}
 
-	 
-	 public static void main(String[] args) throws Exception {
-	        SpringApplication.run(Application.class, args);
-	    }
+	public static void main(String[] args) throws Exception {
+		SpringApplication.run(Application.class, args);
+	}
 
 	public void customize(ConfigurableEmbeddedServletContainer configurableEmbeddedServletContainer) {
-	//	configurableEmbeddedServletContainer.setPort(9090);
 	}
 }
