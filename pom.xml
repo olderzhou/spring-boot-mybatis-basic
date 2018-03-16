@@ -3,8 +3,8 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.zhuiyi.yiconnect.data.transfer</groupId>
 	<artifactId>yiconnect-data-transfer</artifactId>
+	<packaging>jar</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-
 
 	<properties>
 		<java.source>1.8</java.source>
@@ -110,14 +110,13 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<archive>
-						<manifest>
-							<mainClass>org.zhuiyi.yiconnect.data.transfer.Application</mainClass>
-						</manifest>
-					</archive>
-				</configuration>
-
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
 			</plugin>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
