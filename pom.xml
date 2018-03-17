@@ -106,6 +106,7 @@
 
 	</dependencies>
 	<build>
+		<finalName>yiconnect-data-transfer</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
