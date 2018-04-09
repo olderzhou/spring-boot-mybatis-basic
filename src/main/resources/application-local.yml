@@ -2,7 +2,7 @@ spring:
     datasource:
         name: db
         type: com.alibaba.druid.pool.DruidDataSource
-        url: jdbc:mysql://127.0.0.1:3306/im_log_service_2?useUnicode=true&amp;characterEncoding=utf-8
+        url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&amp;characterEncoding=utf-8
         username: root
         password: 123456
         driver-class-name: com.mysql.jdbc.Driver

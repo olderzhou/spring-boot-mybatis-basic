@@ -4,7 +4,8 @@
 
 	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
 		<encoder>
-			<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+			<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} -
+				%msg%n</pattern>
 		</encoder>
 	</appender>
 
@@ -43,17 +44,14 @@
 			<maxHistory>20</maxHistory>
 		</rollingPolicy>
 		<layout class="ch.qos.logback.classic.PatternLayout">
-			<Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36}-%msg%n</Pattern>
+			<Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level
+				%logger{36}-%msg%n</Pattern>
 		</layout>
 	</appender>
 
-	<logger name="org.zhuiyi.yiconnect.data.transfer" level="DEBUG" />
+	<logger name="com.olderzhou.practice" level="DEBUG" />
 	<root level="INFO">
 		<appender-ref ref="STDOUT" />
-<!-- 		<appender-ref ref="INFO_FILE" />  -->
-<!-- 		<appender-ref ref="ERROR_FILE" /> -->
 	</root>
-
-
 
 </configuration>

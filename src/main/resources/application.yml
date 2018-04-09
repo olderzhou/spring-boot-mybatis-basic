@@ -7,8 +7,8 @@ server:
   session-timeout: 60
 
 mybatis:
-  typeAliasesPackage: org.zhuiyi.yiconnect.data.transfer.dao    
-  mapperScanPackage: org.zhuiyi.yiconnect.data.transfer.dao
+  typeAliasesPackage: com.olderzhou.practice.dao    
+  mapperScanPackage: com.olderzhou.practice.dao
   configLocation: classpath:mybatis-config.xml
   mapperLocations: classpath:mapper/*.xml
   
