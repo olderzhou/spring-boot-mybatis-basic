@@ -5,7 +5,7 @@ package com.olderzhou.practice.dto.response.base;
  *   
  * 版本信息：   
  * 日期：2017年12月18日 下午3:59:22  
- * Copyright @Zhuiyi Inc 2017    
+ * Copyright @klaus
  * 版权所有   
  *   
  */   
@@ -16,7 +16,7 @@ import java.util.Map;
 
 /**   
  * 此类描述的是：   
- * @author: klauszhou@wezhuiyi.com 
+ * @author: niklausjulie@gmail.com 
  * @version: 2017年12月18日 下午3:59:22    
  */
 public class R extends HashMap<String, Object> {
